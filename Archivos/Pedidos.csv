@@ -1,0 +1,8 @@
+IdLocal,ArticulosPedido,UbicacionEntrega,Momento,Tipo
+001,Hamburguesa;Pizza,20,1,nuevo
+002,Falafel,43,1,habitual
+003,Shawarma,32,1,programado
+001,Pizza,59,2,farmacia
+002,Falafel,2,2,nuevo
+001,Hamburguesa,11,2,programado
+001,Pizza,57,3,nuevo
