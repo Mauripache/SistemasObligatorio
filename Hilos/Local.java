@@ -11,7 +11,7 @@ public class Local extends Thread {
     public Semaphore semLocal = new Semaphore(0);
     public LinkedList<Pedido> pedidosEnPreparacion = new LinkedList<>();
     private int ubicacion;
-    private  HashMap<String, Integer> articulosDisponibles = new HashMap<>();
+    private HashMap<String, Integer> articulosDisponibles = new HashMap<>();
     private int tiempoTotal = 0;
 
     public Local(int ubicacion, String[] articulos, String[] tiempoPreparacion) {
@@ -35,10 +35,9 @@ public class Local extends Thread {
     }
 
     public void run() {
-        while (true) {
+        while (Clock.getInstance().tiempoActivo) {
             try {
                 semLocal.acquire();
-                //System.out.println("Hola soy el local");
                 
                 LinkedList<Pedido> pedidosPreparados = new LinkedList<Pedido>();
                 pedidosEnPreparacion.forEach( pedido -> {
@@ -46,15 +45,16 @@ public class Local extends Thread {
                     if (pedido.getTiempoPreparacion() == 0){
                         try {
                             pedido.setDireccionRetiro(ubicacion);
+                            pedido.setTiempoListo(Clock.getInstance().counter);
                             MLQ.insertar(pedido);
                             pedidosPreparados.add(pedido);
-                            //this.pedidosEnPreparacion.remove(pedido);
                         } catch (InterruptedException e) {
                             e.printStackTrace();
                         }
                     }
                 });
                 pedidosEnPreparacion.removeAll(pedidosPreparados);
+
                 Clock.getInstance().semClock.release();
             } catch (InterruptedException e) {
                 e.printStackTrace();

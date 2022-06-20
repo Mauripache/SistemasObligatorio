@@ -42,4 +42,8 @@ public class Locales {
     public void insertarPedido(Pedido pedido) {
         this.localesDisponibles.get(pedido.getLocal()).insertarPedido(pedido);
     }
+
+    public boolean localesTrabajando() {
+        return !this.localesDisponibles.values().stream().allMatch(local -> local.pedidosEnPreparacion.isEmpty());
+    }
 }

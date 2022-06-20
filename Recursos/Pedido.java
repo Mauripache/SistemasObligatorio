@@ -4,6 +4,7 @@ import java.util.LinkedList;
 
 public class Pedido {
     private int direccionEntrega;
+    private String id;
     private String local;
     private LinkedList<String> pedido;
     private int tiempoPreparacion;
@@ -11,16 +12,28 @@ public class Pedido {
     private int direccionRetiro;
     private Integer distanciaDeRepartidores;
 
-    public Pedido(int entrega, String local, LinkedList<String> pedido, String tipo) {
+    private int tiempoListo;
+    private int tiempoRecogido;
+    private int tiempoPedido;
+    private int tiempoEntregado;
+
+    public Pedido(int entrega, String local, LinkedList<String> pedido, String tipo, String id, int tiempoPedido) {
         this.direccionEntrega = entrega;
         this.local = local;
         this.pedido = pedido;
         this.tipo = tipo;
+        this.id = id;
+        this.tiempoPedido = tiempoPedido;
     }
 
     public int getDireccionEntrega()
     {
         return direccionEntrega;
+    }
+
+    public String getId()
+    {
+        return id;
     }
 
     public String getLocal()
@@ -53,9 +66,34 @@ public class Pedido {
         return this.distanciaDeRepartidores;
     }
 
+    public int getTiempoListo()
+    {
+        return this.tiempoListo;
+    }
+
+    public int getTiempoRecogido()
+    {
+        return this.tiempoRecogido;
+    }
+
+    public int getTiempoEntregado()
+    {
+        return this.tiempoEntregado;
+    }
+
+    public int getTiempoPedido()
+    {
+        return this.tiempoPedido;
+    }
+
     public void setDireccion(int direccion)
     {
         this.direccionEntrega = direccion;
+    }
+
+    public void setId(String id)
+    {
+        this.id = id;
     }
 
     public void setLocal(String local)
@@ -86,5 +124,20 @@ public class Pedido {
     public void setDistanciaDeRepartidores(Integer distanciaDeRepartidores)
     {
         this.distanciaDeRepartidores = distanciaDeRepartidores;
+    }
+
+    public void setTiempoListo(int tiempoListo)
+    {
+        this.tiempoListo = tiempoListo;
+    }
+
+    public void setTiempoRecogido(int tiempoRecogido)
+    {
+        this.tiempoRecogido = tiempoRecogido;
+    }
+
+    public void setTiempoEntregado(int tiempoEntregado)
+    {
+        this.tiempoEntregado = tiempoEntregado;
     }
 }

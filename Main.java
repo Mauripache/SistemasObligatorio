@@ -6,6 +6,7 @@ import Recursos.Locales;
 import Recursos.Pedido;
 import Recursos.Repartidores;
 import Util.ManejadorArchivos;
+import Util.Reportador;
 
 public class Main
 {
@@ -26,7 +27,7 @@ public class Main
             for (String articulo : listaArticulosString) {
                 listaArticulos.add(articulo);
             }
-            Pedido pedido = new Pedido(Integer.parseInt(lineaSplit[2]), lineaSplit[0], listaArticulos, lineaSplit[4]);
+            Pedido pedido = new Pedido(Integer.parseInt(lineaSplit[2]), lineaSplit[0], listaArticulos, lineaSplit[4], lineaSplit[5], Integer.parseInt(lineaSplit[3]));
             LinkedList<Pedido> momento = pedidosAInsertar.get(Integer.parseInt(lineaSplit[3]));
             if (momento == null) {
                 pedidosAInsertar.put(Integer.parseInt(lineaSplit[3]), new LinkedList<Pedido>());
@@ -35,6 +36,12 @@ public class Main
                 pedidosAInsertar.get(Integer.parseInt(lineaSplit[3])).add(pedido);
             }
         });
+        
+        new Reportador();
+
+        new Clock(cantidadLocales + cantidadRepartidores, pedidosAInsertar);
+        
+        Clock.getInstance().start();
 
         locales.getLocalesDisponibles().values().forEach( local -> {
             local.start();
@@ -42,9 +49,5 @@ public class Main
         repartidores.getRepartidores().forEach( repartidor -> {
             repartidor.start();
         });
-       
-        new Clock(cantidadLocales + cantidadRepartidores, pedidosAInsertar);
-        
-        Clock.getInstance().start();
     }
 }

@@ -45,5 +45,8 @@ public class Repartidores {
         });
         return distanciaTotal/totalRepartidores;
     }
-}
 
+    public boolean repartidoresTrabajando() {
+        return !this.repartidores.stream().allMatch(repartidor -> repartidor.pedidoAEntregar == null);
+    }
+}

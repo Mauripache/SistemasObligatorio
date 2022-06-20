@@ -11,7 +11,7 @@ public class MLQ
     private  HRRNQueue nuevosClientes = new HRRNQueue();
     private  HRRNQueue clientesHabituales = new HRRNQueue();
     private  HRRNQueue pedidosProgramados = new HRRNQueue();
-    private  ArrayList<HRRNQueue> queues = new ArrayList<>();
+    public  ArrayList<HRRNQueue> queues = new ArrayList<>();
 
     public MLQ()
     {
@@ -19,6 +19,10 @@ public class MLQ
         queues.add(nuevosClientes);
         queues.add(clientesHabituales);
         queues.add(pedidosProgramados);
+    }
+
+    public boolean isEmpty() throws InterruptedException {
+        return pedidosDeFarmacia.isEmpty() && nuevosClientes.isEmpty() && clientesHabituales.isEmpty() && pedidosProgramados.isEmpty();
     }
 
     public void insertar(Pedido pedido) throws InterruptedException {

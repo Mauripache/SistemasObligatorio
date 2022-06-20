@@ -1,0 +1,93 @@
+El tiempo promedio de espera de los pedidos fue: 142
+
+	El tiempo promedio de espera de los pedidos de farmacia fue: 128
+		El tiempo promedio de espera de los pedidos de farmacia de la distancia hasta el local 1 a la 10 fue: 112
+		El tiempo promedio de espera de los pedidos de farmacia de la distancia hasta el local 11 a la 20 fue: 34
+		El tiempo promedio de espera de los pedidos de farmacia de la distancia hasta el local 21 a la 30 fue: 81
+		El tiempo promedio de espera de los pedidos de farmacia de la distancia hasta el local 31 a la 40 fue: 128
+		El tiempo promedio de espera de los pedidos de farmacia de la distancia hasta el local 41 a la 50 fue: 186
+		El tiempo promedio de espera de los pedidos de farmacia de la distancia hasta el local 51 a la 60 fue: 118
+		El tiempo promedio de espera de los pedidos de farmacia de la distancia hasta el local 61 a la 70 fue: 131
+		El tiempo promedio de espera de los pedidos de farmacia de la distancia hasta el local 71 a la 80 fue: 168
+		El tiempo promedio de espera de los pedidos de farmacia de la distancia hasta el local 81 a la 90 fue: 193
+		El tiempo promedio de espera de los pedidos de farmacia de la distancia hasta el local 91 a la 100 fue: 145
+	El tiempo promedio de espera de los pedidos de clientes nuevos fue: 145
+		El tiempo promedio de espera de los pedidos de clientes nuevos de la distancia hasta el local 1 a la 10 fue: 111
+		El tiempo promedio de espera de los pedidos de clientes nuevos de la distancia hasta el local 11 a la 20 fue: 93
+		El tiempo promedio de espera de los pedidos de clientes nuevos de la distancia hasta el local 21 a la 30 fue: 204
+		El tiempo promedio de espera de los pedidos de clientes nuevos de la distancia hasta el local 31 a la 40 fue: 56
+		El tiempo promedio de espera de los pedidos de clientes nuevos de la distancia hasta el local 41 a la 50 fue: 174
+		El tiempo promedio de espera de los pedidos de clientes nuevos de la distancia hasta el local 51 a la 60 fue: 134
+		El tiempo promedio de espera de los pedidos de clientes nuevos de la distancia hasta el local 61 a la 70 fue: 252
+		El tiempo promedio de espera de los pedidos de clientes nuevos de la distancia hasta el local 71 a la 80 fue: 107
+		El tiempo promedio de espera de los pedidos de clientes nuevos de la distancia hasta el local 81 a la 90 fue: 240
+		El tiempo promedio de espera de los pedidos de clientes nuevos de la distancia hasta el local 91 a la 100 fue: 171
+	El tiempo promedio de espera de los pedidos de clientes habituales fue: 142
+		El tiempo promedio de espera de los pedidos de clientes habituales de la distancia hasta el local 1 a la 10 fue: 14
+		El tiempo promedio de espera de los pedidos de clientes habituales de la distancia hasta el local 11 a la 20 fue: 135
+		El tiempo promedio de espera de los pedidos de clientes habituales de la distancia hasta el local 21 a la 30 fue: 88
+		El tiempo promedio de espera de los pedidos de clientes habituales de la distancia hasta el local 31 a la 40 fue: 232
+		El tiempo promedio de espera de los pedidos de clientes habituales de la distancia hasta el local 41 a la 50 fue: 88
+		El tiempo promedio de espera de los pedidos de clientes habituales de la distancia hasta el local 51 a la 60 fue: 220
+		El tiempo promedio de espera de los pedidos de clientes habituales de la distancia hasta el local 61 a la 70 fue: 94
+		El tiempo promedio de espera de los pedidos de clientes habituales de la distancia hasta el local 71 a la 80 fue: 233
+		El tiempo promedio de espera de los pedidos de clientes habituales de la distancia hasta el local 81 a la 90 fue: 104
+		El tiempo promedio de espera de los pedidos de clientes habituales de la distancia hasta el local 91 a la 100 fue: 214
+	El tiempo promedio de espera de los pedidos de pedidos programados fue: 156
+		El tiempo promedio de espera de los pedidos de pedidos programados de la distancia hasta el local 1 a la 10 fue: 22
+		El tiempo promedio de espera de los pedidos de pedidos programados de la distancia hasta el local 11 a la 20 fue: 84
+		El tiempo promedio de espera de los pedidos de pedidos programados de la distancia hasta el local 21 a la 30 fue: 219
+		El tiempo promedio de espera de los pedidos de pedidos programados de la distancia hasta el local 31 a la 40 fue: 124
+		El tiempo promedio de espera de los pedidos de pedidos programados de la distancia hasta el local 41 a la 50 fue: 190
+		El tiempo promedio de espera de los pedidos de pedidos programados de la distancia hasta el local 51 a la 60 fue: 142
+		El tiempo promedio de espera de los pedidos de pedidos programados de la distancia hasta el local 61 a la 70 fue: 250
+		El tiempo promedio de espera de los pedidos de pedidos programados de la distancia hasta el local 71 a la 80 fue: 148
+		El tiempo promedio de espera de los pedidos de pedidos programados de la distancia hasta el local 81 a la 90 fue: 235
+		El tiempo promedio de espera de los pedidos de pedidos programados de la distancia hasta el local 91 a la 100 fue: 147
+
+El tiempo promedio, desde que la orden esta lista hasta que llega a manos del repartidor, de los pedidos fue: 41
+
+	El tiempo promedio, desde que la orden esta lista hasta que llega a manos del repartidor, de los pedidos de farmacia fue: 27
+		El tiempo promedio de espera desde que la orden esta lista hasta que llega a manos del repartidor de los pedidos de farmacia de la distancia hasta el local 1 a la 10 fue: 1
+		El tiempo promedio de espera desde que la orden esta lista hasta que llega a manos del repartidor de los pedidos de farmacia de la distancia hasta el local 11 a la 20 fue: 1
+		El tiempo promedio de espera desde que la orden esta lista hasta que llega a manos del repartidor de los pedidos de farmacia de la distancia hasta el local 21 a la 30 fue: 1
+		El tiempo promedio de espera desde que la orden esta lista hasta que llega a manos del repartidor de los pedidos de farmacia de la distancia hasta el local 31 a la 40 fue: 1
+		El tiempo promedio de espera desde que la orden esta lista hasta que llega a manos del repartidor de los pedidos de farmacia de la distancia hasta el local 41 a la 50 fue: 70
+		El tiempo promedio de espera desde que la orden esta lista hasta que llega a manos del repartidor de los pedidos de farmacia de la distancia hasta el local 51 a la 60 fue: 36
+		El tiempo promedio de espera desde que la orden esta lista hasta que llega a manos del repartidor de los pedidos de farmacia de la distancia hasta el local 61 a la 70 fue: 34
+		El tiempo promedio de espera desde que la orden esta lista hasta que llega a manos del repartidor de los pedidos de farmacia de la distancia hasta el local 71 a la 80 fue: 38
+		El tiempo promedio de espera desde que la orden esta lista hasta que llega a manos del repartidor de los pedidos de farmacia de la distancia hasta el local 81 a la 90 fue: 63
+		El tiempo promedio de espera desde que la orden esta lista hasta que llega a manos del repartidor de los pedidos de farmacia de la distancia hasta el local 91 a la 100 fue: 16
+	El tiempo promedio, desde que la orden esta lista hasta que llega a manos del repartidor, de los pedidos de clientes nuevos fue: 38
+		El tiempo promedio de espera desde que la orden esta lista hasta que llega a manos del repartidor de los pedidos de clientes nuevos de la distancia hasta el local 1 a la 10 fue: 86
+		El tiempo promedio de espera desde que la orden esta lista hasta que llega a manos del repartidor de los pedidos de clientes nuevos de la distancia hasta el local 11 a la 20 fue: 30
+		El tiempo promedio de espera desde que la orden esta lista hasta que llega a manos del repartidor de los pedidos de clientes nuevos de la distancia hasta el local 21 a la 30 fue: 88
+		El tiempo promedio de espera desde que la orden esta lista hasta que llega a manos del repartidor de los pedidos de clientes nuevos de la distancia hasta el local 31 a la 40 fue: 0
+		El tiempo promedio de espera desde que la orden esta lista hasta que llega a manos del repartidor de los pedidos de clientes nuevos de la distancia hasta el local 41 a la 50 fue: 68
+		El tiempo promedio de espera desde que la orden esta lista hasta que llega a manos del repartidor de los pedidos de clientes nuevos de la distancia hasta el local 51 a la 60 fue: 1
+		El tiempo promedio de espera desde que la orden esta lista hasta que llega a manos del repartidor de los pedidos de clientes nuevos de la distancia hasta el local 61 a la 70 fue: 84
+		El tiempo promedio de espera desde que la orden esta lista hasta que llega a manos del repartidor de los pedidos de clientes nuevos de la distancia hasta el local 71 a la 80 fue: 1
+		El tiempo promedio de espera desde que la orden esta lista hasta que llega a manos del repartidor de los pedidos de clientes nuevos de la distancia hasta el local 81 a la 90 fue: 74
+		El tiempo promedio de espera desde que la orden esta lista hasta que llega a manos del repartidor de los pedidos de clientes nuevos de la distancia hasta el local 91 a la 100 fue: 1
+	El tiempo promedio, desde que la orden esta lista hasta que llega a manos del repartidor, de los pedidos de clientes habituales fue: 52
+		El tiempo promedio de espera desde que la orden esta lista hasta que llega a manos del repartidor de los pedidos de clientes habituales de la distancia hasta el local 1 a la 10 fue: 1
+		El tiempo promedio de espera desde que la orden esta lista hasta que llega a manos del repartidor de los pedidos de clientes habituales de la distancia hasta el local 11 a la 20 fue: 95
+		El tiempo promedio de espera desde que la orden esta lista hasta que llega a manos del repartidor de los pedidos de clientes habituales de la distancia hasta el local 21 a la 30 fue: 1
+		El tiempo promedio de espera desde que la orden esta lista hasta que llega a manos del repartidor de los pedidos de clientes habituales de la distancia hasta el local 31 a la 40 fue: 114
+		El tiempo promedio de espera desde que la orden esta lista hasta que llega a manos del repartidor de los pedidos de clientes habituales de la distancia hasta el local 41 a la 50 fue: 1
+		El tiempo promedio de espera desde que la orden esta lista hasta que llega a manos del repartidor de los pedidos de clientes habituales de la distancia hasta el local 51 a la 60 fue: 111
+		El tiempo promedio de espera desde que la orden esta lista hasta que llega a manos del repartidor de los pedidos de clientes habituales de la distancia hasta el local 61 a la 70 fue: 1
+		El tiempo promedio de espera desde que la orden esta lista hasta que llega a manos del repartidor de los pedidos de clientes habituales de la distancia hasta el local 71 a la 80 fue: 107
+		El tiempo promedio de espera desde que la orden esta lista hasta que llega a manos del repartidor de los pedidos de clientes habituales de la distancia hasta el local 81 a la 90 fue: 1
+		El tiempo promedio de espera desde que la orden esta lista hasta que llega a manos del repartidor de los pedidos de clientes habituales de la distancia hasta el local 91 a la 100 fue: 95
+	El tiempo promedio, desde que la orden esta lista hasta que llega a manos del repartidor, de los pedidos de pedidos programados fue: 49
+		El tiempo promedio de espera desde que la orden esta lista hasta que llega a manos del repartidor de los pedidos de pedidos programados de la distancia hasta el local 1 a la 10 fue: 1
+		El tiempo promedio de espera desde que la orden esta lista hasta que llega a manos del repartidor de los pedidos de pedidos programados de la distancia hasta el local 11 a la 20 fue: 1
+		El tiempo promedio de espera desde que la orden esta lista hasta que llega a manos del repartidor de los pedidos de pedidos programados de la distancia hasta el local 21 a la 30 fue: 128
+		El tiempo promedio de espera desde que la orden esta lista hasta que llega a manos del repartidor de los pedidos de pedidos programados de la distancia hasta el local 31 a la 40 fue: 1
+		El tiempo promedio de espera desde que la orden esta lista hasta que llega a manos del repartidor de los pedidos de pedidos programados de la distancia hasta el local 41 a la 50 fue: 120
+		El tiempo promedio de espera desde que la orden esta lista hasta que llega a manos del repartidor de los pedidos de pedidos programados de la distancia hasta el local 51 a la 60 fue: 1
+		El tiempo promedio de espera desde que la orden esta lista hasta que llega a manos del repartidor de los pedidos de pedidos programados de la distancia hasta el local 61 a la 70 fue: 120
+		El tiempo promedio de espera desde que la orden esta lista hasta que llega a manos del repartidor de los pedidos de pedidos programados de la distancia hasta el local 71 a la 80 fue: 1
+		El tiempo promedio de espera desde que la orden esta lista hasta que llega a manos del repartidor de los pedidos de pedidos programados de la distancia hasta el local 81 a la 90 fue: 119
+		El tiempo promedio de espera desde que la orden esta lista hasta que llega a manos del repartidor de los pedidos de pedidos programados de la distancia hasta el local 91 a la 100 fue: 1

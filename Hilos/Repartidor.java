@@ -4,6 +4,7 @@ import java.util.concurrent.Semaphore;
 
 import Planificador.MLQ;
 import Recursos.Pedido;
+import Util.Reportador;
 
 public class Repartidor extends Thread {
 
@@ -11,7 +12,7 @@ public class Repartidor extends Thread {
     int ubicacion;
     String nombre;
     boolean pedidoRecogido = false;
-    Pedido pedidoAEntregar = null;
+    public Pedido pedidoAEntregar = null;
 
     public Repartidor(int ubicacion, String nombre) {
         this.nombre = nombre;
@@ -22,14 +23,22 @@ public class Repartidor extends Thread {
         return ubicacion;
     }
 
+    public String getNombre() {
+        return nombre;
+    }
+
     @Override
     public void run() {
-        while (true) {
+        while (Clock.getInstance().tiempoActivo) {
             try {
                 semRepartidor.acquire();
 
                 if (pedidoAEntregar == null) {
                     this.pedidoAEntregar = MLQ.MLQ.proximaSolicitud();
+                    if (this.pedidoAEntregar != null) {
+                        //Habia pedido para recoger
+                        this.pedidoAEntregar.setTiempoRecogido(Clock.getInstance().counter);
+                    }
                 } else {
                     if (!pedidoRecogido) {
                         if (ubicacion > pedidoAEntregar.getDireccionRetiro()) {
@@ -47,7 +56,9 @@ public class Repartidor extends Thread {
                             ubicacion++;
                         } else {
                             // entregado
-                            System.out.println("Entrega pedido " + pedidoAEntregar.getPedido().getFirst().toString() + " en momento " + Clock.getInstance().counter);
+                            this.pedidoAEntregar.setTiempoEntregado(Clock.getInstance().counter);
+                            System.out.println("Entrega pedido " + pedidoAEntregar.getId() +" " + this.nombre + " en momento " + Clock.getInstance().counter);
+                            Reportador.getInstance().getPedidos().add(pedidoAEntregar);
                             pedidoRecogido = false;
                             pedidoAEntregar = null;
                         }

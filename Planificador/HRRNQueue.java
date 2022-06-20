@@ -2,13 +2,12 @@ package Planificador;
 
 import java.util.PriorityQueue;
 import java.util.concurrent.Semaphore;
-
 import Recursos.Pedido;
 import Recursos.Repartidores;
 
 public class HRRNQueue {
 
-    private final PriorityQueue<Pedido> queue = new PriorityQueue<>((c1, c2) -> (c1.getDistanciaDeRepartidores()).compareTo(c2.getDistanciaDeRepartidores()));
+    public final PriorityQueue<Pedido> queue = new PriorityQueue<>((c1, c2) -> (c1.getDistanciaDeRepartidores()).compareTo(c2.getDistanciaDeRepartidores()));
     private final Semaphore mutex = new Semaphore(1);
 
     public void push(Pedido pedido) throws InterruptedException 
